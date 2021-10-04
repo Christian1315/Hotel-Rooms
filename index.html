@@ -1,0 +1,358 @@
+<!-- demo4.ltheme.com/joomla/lt-hotel/index.php/ -->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="hotel_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="uikit/css/uikit.min.css">
+    <title>HOTEL-ROOMS | HOME</title>
+</head>
+
+<body>
+    <!-- //====== NAV BAR =====// -->
+    <div class="container-fluid">
+        <div class="row bg-dark fixed-top">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#" id="logo">
+                            <img src="hotel_icon.png" alt="">
+                            <span class=""><strong>HOTEL'S NAME</strong></span>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="rooms.html">Rooms</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="about_us.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        About Hotel
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="about_us.html">About Us</a></li>
+                                        <li><a class="dropdown-item" href="restaurant.html">Restaurant</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="spa_wellness.html">Sapn & Wellness</a></li>
+                                        <li><a class="dropdown-item" href="#">Porfollio</a></li>
+                                        <li><a class="dropdown-item" href="#">Gallery</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="contact_us.html">Contact Us</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!--//== HOME PAGE===//-->
+
+    <!--###== HEADER===###-->
+    <div class="container-fluid" id="header">
+        <div class="row">
+            <div class="col-md-12 header">
+                <div class="text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                      </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                      </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                      </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                      </svg>
+                </div>
+                <div>
+                    <div>
+                        <div class="" uk-scrollspy="cls: uk-animation-slide-top; repeat: false">
+                            <h1 class="text1 text-center">Enjoy the luxury</h1>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: false">
+                            <h1 class="text2 text-center">Experience</h1>
+                        </div>
+                    </div>
+                </div>
+                <h6 class="span">LUXURY HOTEL & BEST RESORT</h6>
+            </div>
+        </div>
+    </div>
+
+    <!--###== WELCOME ===###-->
+    <div class="container" id="welcome">
+        <div class="row">
+            <div class="col-md-4">
+                <p class="holiday_text">ENJOY YOUR HOLIDAYS</p>
+                <h1 class="welcome_text">Welcome</h1>
+                <p class="text_bold">Hello. Our hotel has been present for over 20 years. We make the best for all !</p>
+                <p class="text_opacited text-secondary">Congue, gravida. Placeat nibh sunt semper elementum anim! Integer lectus debitis auctor. Molestias vivamus eligendi ut, cupidatat nisl iaculis etiam! Laboris aenean .</p>
+                <button class="about_button btn">
+                    MORE ABOUT US
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                      </svg>
+                </button>
+            </div>
+            <div class="col-md-8  welcome_contact" id="welcome_contact">
+                <div class="row" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 500">
+                    <div class="col-6 column1" uk-scrollspy-class="uk-animation-slide-left">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Arrival Date</label>
+                                <input type="date" class="form-control-customer" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Departure Date</label>
+                                <input type="date" class="form-control-customer" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-check-label" for="exampleCheck1">Room types</label>
+                                <select class="form-control-customer" aria-label="Default select example">
+                                        <option selected>Open this select menu</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                      </select>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-check-label" for="exampleCheck1">Guests</label>
+                                <select class="form-control-customer" aria-label="Default select example">
+                                        <option value="1" selected>1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="3">4</option>
+                                        <option value="3">5</option>
+                                        <option value="3">6</option>
+                                    </select>
+                            </div>
+                            <button type="submit" class="btn about_button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                </svg>
+                                Submit
+                            </button>
+                        </form>
+                    </div>
+                    <div class="col-6 column2" uk-scrollspy-class="uk-animation-slide-right">
+                        <h3 class="text-center text-white">ADDRESS</h3>
+                        <p class="text-center">
+                            143 Avenue, Miami ( Florida ) <br> Email : booking@hotelresort.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--### OUR ROOMS ###-->
+    <div class="container" id="our_rooms">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="">Our Rooms</h1>
+                <h4 class="">Quality Ingredients, Tasty Meals</h4>
+                <p class="">Congue, gravida. Placeat nibh sunt semper elementum anim! Integer lectus debitis auctor. Molestias vivamus eligendi ut, cupidatat nisl iaculis etiam! Laboris aenean .</p>
+            </div>
+        </div>
+    </div>
+
+    <!--### OUR ROOMS DETAILS###-->
+    <div class="container-fluid" id="rooms_detail">
+        <div class="row rooms_detail">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="Images/image_hotel2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="">Small Room</h5>
+                                <p class="">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="price">
+                                    <strong>$ 18</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="Images/image_hotel2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="">Card title</h5>
+                                <p class="">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="price">
+                                    <strong>$ 18</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="Images/image_hotel2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="price">
+                                    <strong>$ 18</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="Images/image_hotel2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="">Card title</h5>
+                                <p class="">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="price">
+                                    <strong>$ 18</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center mt-5">
+                        <button class="discover_button">DISCOVER OUR NEWS ROOMS!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--### OUR HAPPY CUSTOMERS ###-->
+    <div class="container" id="happy_customers">
+        <div class="row">
+            <div class="col">
+                <h1 class="">Our happy CUSTOMERS</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-header">
+                        <div class="uk-grid-small uk-flex-middle" uk-grid>
+                            <div class="uk-width-auto">
+                                <img class="uk-border-circle" width="200" height="200" src="Images/homme_avatar.jpg">
+                            </div>
+                            <div class="uk-width-expand">
+                                <h3 class="uk-card-title uk-margin-remove-bottom">Jose Hatts</h3>
+                                <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    </div>
+                    <div class="uk-card-footer">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-header">
+                        <div class="uk-grid-small uk-flex-middle" uk-grid>
+                            <div class="uk-width-auto">
+                                <img class="uk-border-circle" width="200" height="200" src="Images/homme_avatar.jpg">
+                            </div>
+                            <div class="uk-width-expand">
+                                <h3 class="uk-card-title uk-margin-remove-bottom">Jose Hatts</h3>
+                                <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    </div>
+                    <div class="uk-card-footer">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-header">
+                        <div class="uk-grid-small uk-flex-middle" uk-grid>
+                            <div class="uk-width-auto">
+                                <img class="uk-border-circle" width="200" height="200" src="Images/homme_avatar.jpg">
+                            </div>
+                            <div class="uk-width-expand">
+                                <h3 class="uk-card-title uk-margin-remove-bottom">Jose Hatts</h3>
+                                <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    </div>
+                    <div class="uk-card-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--### FOOTER ###-->
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 column1">
+                    <h3 class="">HOTEL BOOKING</h3>
+                    <p class="">Why I say old chap, that is spiffing blimey mufty, off his nut posh so I said. Butty pardon you blower owt to do with me jolly good off his nut fanny around chancer victoria sponge I, cuppa bog-standard.!</p>
+                    <h3 class="">Our Social Network</h3>
+                    <h5 class=""><strong>Facebook</strong> | <strong>Twitter</strong> | <strong>Youtube</strong></h5>
+                </div>
+                <div class="col-md-4 column2">
+                    <h3 class="">COMPANY</h3>
+                    <p class="">
+                        <a class="dropdown-item" href="#">Restaurant</a>
+                        <a class="dropdown-item" href="#">Sapn & Wellness</a>
+                        <a class="dropdown-item" href="#">Porfollio</a>
+                        <a class="dropdown-item" href="#">Gallery</a>
+                    </p>
+                </div>
+                <div class="col-md-4 column3">
+                    <h3 class="">Payment Accepted</h3>
+                    <img src="Images/visa.png" alt="" srcset="">
+                    <h3 class="">Issue with Payment?</h3>
+                    <p class="">We accept most of payment gateways, anytime if you have issue with payment, just contact us.</p>
+                </div>
+            </div>
+            <div class="col-12">
+                <h5 class="text-center itServices">POWERED BY I&T SERVICES/61765590</h5>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="uikit/js/uikit.min.js"></script>
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="hotel_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="uikit/css/uikit.min.css">
+    <title>HOTEL-ROOMS | ROOMS</title>
+</head>
+
+<body>
+    <!-- //====== NAV BAR =====// -->
+    <div class="container-fluid">
+        <div class="row bg-dark fixed-top">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html" id="logo">
+                            <img src="hotel_icon.png" alt="">
+                            <span class=""><strong>HOTEL'S NAME</strong></span>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Rooms</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        About Hotel
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="about_us.html">About Us</a></li>
+                                        <li><a class="dropdown-item" href="restaurant.html">Restaurant</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Sapn & Wellness</a></li>
+                                        <li><a class="dropdown-item" href="#">Porfollio</a></li>
+                                        <li><a class="dropdown-item" href="#">Gallery</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="contact_us.html">Contact Us</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- //====== ALL ROOMS =====// -->
+    <div class="container-fluid" id="all_rooms">
+        <!-- ####====== HEADER =====#### -->
+        <div class="row header">
+            <div class="col-md-12" uk-scrollspy="cls: uk-animation-slide-top; repeat: false">
+                <h1 class="">ALL OUR ROOMS</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ####====== EACH ROOM =====#### -->
+    <div class="container">
+        <div class="row" id="each_room">
+            <div class="col-md-12">
+                <h2 class="">
+                    <span class="">
+                        <small>2</small>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                        </svg>
+                    </span>
+                    <strong>
+                        Classic Room Family 
+                        <div class="price">
+                            $62
+                        </div>
+                    </strong>
+
+                </h2>
+
+                <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="sets: true">
+
+                    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m">
+                        <li>
+                            <img src="Images/room4.jpg" alt="">
+                            <div class="uk-position-center uk-panel">
+                                <h1>1</h1>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="Images/image_hotel2.jpg" alt="">
+                            <div class="uk-position-center uk-panel">
+                                <h1>2</h1>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="Images/room4.jpg" alt="">
+                            <div class="uk-position-center uk-panel">
+                                <h1>3</h1>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="Images/image_hotel2.jpg" alt="">
+                            <div class="uk-position-center uk-panel">
+                                <h1>4</h1>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="Images/room4.jpg" alt="">
+                            <div class="uk-position-center uk-panel">
+                                <h1>5</h1>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="Images/image_hotel2.jpg" alt="">
+                            <div class="uk-position-center uk-panel">
+                                <h1>6</h1>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="Images/room4.jpg" alt="">
+                            <div class="uk-position-center uk-panel">
+                                <h1>7</h1>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="Images/image_hotel2.jpg" alt="">
+                            <div class="uk-position-center uk-panel">
+                                <h1>8</h1>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="Images/room4.jpg" alt="">
+                            <div class="uk-position-center uk-panel">
+                                <h1>9</h1>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="Images/image_hotel2.jpg" alt="">
+                            <div class="uk-position-center uk-panel">
+                                <h1>10</h1>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+                </div>
+                <p class="description mt-3">
+                    <strong> 35 square meters</strong>. Desk. Television with premium cable/satellite channels. Complimentary wired and wireless Internet access. In-room safe. Refrigerator and minibar. Ensuite bathroom with bathtub. Bath amenities include
+                    hair dryer, makeup/shaving mirror, and complimentary toiletries. Slippers. Iron/ironing board. Air conditioning.
+                </p>
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="5" height="5" fill="currentColor" class="bi bi-calendar2-day-fill" viewBox="0 0 16 16">
+                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zm9.954 3H2.545c-.3 0-.545.224-.545.5v1c0 .276.244.5.545.5h10.91c.3 0 .545-.224.545-.5v-1c0-.276-.244-.5-.546-.5zm-2.24 4.855a.428.428 0 1 0 0-.855.426.426 0 0 0-.429.43c0 .238.192.425.43.425zm.337.563h-.672v4.105h.672V8.418zm-6.867 4.105v-2.3h2.261v-.61H4.684V7.801h2.464v-.61H4v5.332h.684zm3.296 0h.676V9.98c0-.554.227-1.007.953-1.007.125 0 .258.004.329.015v-.613a1.806 1.806 0 0 0-.254-.02c-.582 0-.891.32-1.012.567h-.02v-.504H7.98v4.105z"/>
+                      </svg>
+                      VIEW CALENDAR
+                </button>
+                <button class="float-right">SELECT</button>
+            </div>
+        </div>
+        <div class="row" id="each_room">
+            <div class="col-md-12">
+                <h2 class="">
+                    <span class="">
+                        <small>2</small>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                        </svg>
+                    </span>
+                    <strong>
+                        Classic Room Family 
+                        <div class="price">
+                            $62
+                        </div>
+                    </strong>
+
+                </h2>
+
+                <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="sets: true">
+
+                    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m">
+                        <li>
+                            <img src="Images/room4.jpg" alt="">
+                            <div class="uk-position-center uk-panel">
+                                <h1>1</h1>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="Images/image_hotel2.jpg" alt="">
+                            <div class="uk-position-center uk-panel">
+                                <h1>2</h1>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="Images/room4.jpg" alt="">
+                            <div class="uk-position-center uk-panel">
+                                <h1>3</h1>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="Images/image_hotel2.jpg" alt="">
+                            <div class="uk-position-center uk-panel">
+                                <h1>4</h1>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="Images/room4.jpg" alt="">
+                            <div class="uk-position-center uk-panel">
+                                <h1>5</h1>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="Images/image_hotel2.jpg" alt="">
+                            <div class="uk-position-center uk-panel">
+                                <h1>6</h1>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="Images/room4.jpg" alt="">
+                            <div class="uk-position-center uk-panel">
+                                <h1>7</h1>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="Images/image_hotel2.jpg" alt="">
+                            <div class="uk-position-center uk-panel">
+                                <h1>8</h1>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="Images/room4.jpg" alt="">
+                            <div class="uk-position-center uk-panel">
+                                <h1>9</h1>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="Images/image_hotel2.jpg" alt="">
+                            <div class="uk-position-center uk-panel">
+                                <h1>10</h1>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+                </div>
+                <p class="description mt-3">
+                    <strong> 35 square meters</strong>. Desk. Television with premium cable/satellite channels. Complimentary wired and wireless Internet access. In-room safe. Refrigerator and minibar. Ensuite bathroom with bathtub. Bath amenities include
+                    hair dryer, makeup/shaving mirror, and complimentary toiletries. Slippers. Iron/ironing board. Air conditioning.
+                </p>
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="5" height="5" fill="currentColor" class="bi bi-calendar2-day-fill" viewBox="0 0 16 16">
+                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zm9.954 3H2.545c-.3 0-.545.224-.545.5v1c0 .276.244.5.545.5h10.91c.3 0 .545-.224.545-.5v-1c0-.276-.244-.5-.546-.5zm-2.24 4.855a.428.428 0 1 0 0-.855.426.426 0 0 0-.429.43c0 .238.192.425.43.425zm.337.563h-.672v4.105h.672V8.418zm-6.867 4.105v-2.3h2.261v-.61H4.684V7.801h2.464v-.61H4v5.332h.684zm3.296 0h.676V9.98c0-.554.227-1.007.953-1.007.125 0 .258.004.329.015v-.613a1.806 1.806 0 0 0-.254-.02c-.582 0-.891.32-1.012.567h-.02v-.504H7.98v4.105z"/>
+                      </svg>
+                      VIEW CALENDAR
+                </button>
+                <button class="float-right">SELECT</button>
+            </div>
+        </div>
+        <!-- ====Pagination=== -->
+        <nav aria-label="Page navigation example" class="float-left mt-5">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+
+    <!--### FOOTER ###-->
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 column1">
+                    <h3 class="">HOTEL BOOKING</h3>
+                    <p class="">Why I say old chap, that is spiffing blimey mufty, off his nut posh so I said. Butty pardon you blower owt to do with me jolly good off his nut fanny around chancer victoria sponge I, cuppa bog-standard.!</p>
+                    <h3 class="">Our Social Network</h3>
+                    <h5 class=""><strong>Facebook</strong> | <strong>Twitter</strong> | <strong>Youtube</strong></h5>
+                </div>
+                <div class="col-md-4 column2">
+                    <h3 class="">COMPANY</h3>
+                    <p class="">
+                        <a class="dropdown-item" href="#">Restaurant</a>
+                        <a class="dropdown-item" href="#">Sapn & Wellness</a>
+                        <a class="dropdown-item" href="#">Porfollio</a>
+                        <a class="dropdown-item" href="#">Gallery</a>
+                    </p>
+                </div>
+                <div class="col-md-4 column3">
+                    <h3 class="">Payment Accepted</h3>
+                    <img src="Images/visa.png" alt="" srcset="">
+                    <h3 class="">Issue with Payment?</h3>
+                    <p class="">We accept most of payment gateways, anytime if you have issue with payment, just contact us.</p>
+                </div>
+            </div>
+            <div class="col-12">
+                <h5 class="text-center itServices">POWERED BY I&T SERVICES/61765590</h5>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="uikit/js/uikit.min.js"></script>
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

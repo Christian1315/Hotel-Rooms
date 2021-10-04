@@ -1,0 +1,692 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* ==== NAV BAR=== */
+
+nav {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#logo {
+    text-align: none;
+}
+
+#logo img {
+    width: 50px;
+    height: 50px;
+}
+
+#logo span {
+    color: #d35400;
+    letter-spacing: 6px;
+    font-weight: 900;
+}
+
+.nav-link {
+    color: white!important;
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+    background-color: #d35400;
+    text-decoration: none;
+}
+
+a:visited {
+    color: red;
+    text-decoration: none;
+}
+
+#navbarSupportedContent {
+    text-align: center;
+    margin-left: 200px;
+}
+
+#navbarSupportedContent li {
+    margin-right: 20px;
+}
+
+.dropdown-menu .dropdown-item {
+    color: black;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+
+/* ===== HOME PAGE =====*/
+
+
+/* ### HEADER ### */
+
+#header {
+    background: url(Images/image_hotel2.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+#header .header {
+    background-color: black;
+    opacity: 0.8;
+    padding: 300px 100px 100px 100px;
+    /* padding-top: 100px;
+    padding-bottom: 100px; */
+}
+
+#header .text1 {
+    color: #d35400;
+    letter-spacing: 10px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#header .text2 {
+    color: white;
+    letter-spacing: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#header .span {
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
+
+#header svg {
+    color: white;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+
+/* ### WELCOME ### */
+
+#welcome {
+    margin: 100px 50px;
+}
+
+#welcome .holiday_text {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#welcome .welcome_text {
+    color: #d35400;
+}
+
+#welcome .text_bold {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#welcome .about_button {
+    padding: 10px;
+    border-radius: 20px 0px 20px 0px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #d35400;
+    box-shadow: rgb(53, 52, 52) 3px 3px 3px;
+}
+
+#welcome .about_button:hover {
+    transform: scale(1.1, 1.1);
+    transition: 0.1;
+    box-shadow: rgb(53, 52, 52) 6px 4px 3px;
+}
+
+#welcome_contact .column2 {
+    background: url(Images/image_hotel2.jpg) no-repeat fixed;
+    background-size: cover;
+    padding: 100px 0px;
+    color: white;
+    font-size: 20px;
+}
+
+#welcome_contact .column1 {
+    box-shadow: rgb(27, 27, 27) -5px 4px 3px;
+    border-radius: 0px 10px 0px 10px;
+    padding-bottom: 3px;
+}
+
+#welcome_contact .column1:hover {
+    transform: scale(1.01, 1.01);
+    transition: 0.1s;
+}
+
+#welcome_contact .column1>label {
+    margin-bottom: 10px;
+}
+
+.form-control-customer {
+    border: #d35400 solid 1px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+
+/* ###===== OUR ROOMS======= ### */
+
+#our_rooms {
+    text-align: center;
+}
+
+#our_rooms h1 {
+    color: #d35400;
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#our_rooms h4 {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+#our_rooms p {
+    font-size: 20px;
+}
+
+
+/*### OUR ROOMS DETAILS###*/
+
+#rooms_detail {
+    background: url(Images/image_hotel.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+#rooms_detail .rooms_detail {
+    background-color: black;
+    opacity: 0.8;
+    padding: 50px 20px;
+}
+
+#rooms_detail .card-body {
+    text-align: center;
+}
+
+#rooms_detail .card-body h5 {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#rooms_detail .card-body .price {
+    font-weight: bold;
+    border-top: #d35400 solid 3px;
+    border-bottom: #d35400 solid 3px;
+    font-size: 30px;
+    margin: 5px 100px;
+    text-align: center;
+}
+
+#rooms_detail .card:hover {
+    transform: scale(1.06, 1.06);
+    transition: 0.1s;
+}
+
+#rooms_detail .discover_button {
+    padding: 10px;
+    border-radius: 20px 0px 20px 0px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #d35400;
+    box-shadow: rgb(53, 52, 52) 3px 3px 3px;
+}
+
+#rooms_detail .discover_button:hover {
+    transform: scale(1.1, 1.1);
+    transition: 0.1;
+    box-shadow: rgb(53, 52, 52) 6px 4px 3px;
+}
+
+
+/* ==== HAPPY CUSTOMERS==== */
+
+#happy_customers {
+    margin-top: 100px;
+}
+
+#happy_customers h1 {
+    text-align: center;
+    color: #d35400;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 10px;
+}
+
+
+/* ===== FOOTER==== */
+
+#footer {
+    background-color: rgb(34, 33, 33);
+    margin-top: 100px;
+    padding: 30px 20px;
+}
+
+#footer h3 {
+    color: white;
+    font-weight: 900;
+}
+
+#footer p {
+    color: white;
+    opacity: 0.6;
+}
+
+#footer h5 {
+    color: white;
+}
+
+#footer h5 strong {
+    color: #d35400;
+}
+
+#footer .column2 p a {
+    color: #d35400;
+    font-size: 20px
+}
+
+#footer .itServices {
+    color: white;
+    font-weight: 900;
+    letter-spacing: 3px;
+    border-top: white solid 3px;
+    border-bottom: white solid 3px;
+    padding: 5px 0px;
+    margin: 10px 300px;
+}
+
+
+/* ===== ALL ROOMS==== */
+
+#all_rooms {
+    background: url(Images/image_hotel.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+#all_rooms .header {
+    background-color: black;
+    opacity: 0.8;
+    padding: 100px;
+}
+
+#all_rooms h1 {
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 10px;
+}
+
+#each_room {
+    margin-top: 50px;
+    border: rgb(41, 40, 40) solid 1px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+#each_room svg {
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    margin-left: -8px;
+}
+
+#each_room span {
+    text-align: center;
+    padding-left: 5px;
+    background-color: #d35400;
+    width: 50px;
+    height: 50px;
+    color: white;
+    border-radius: 0px 20px 0px 20px;
+}
+
+#each_room strong {
+    margin-left: 3px;
+}
+
+#each_room img {
+    width: 100%;
+    height: 300px;
+}
+
+#each_room button {
+    /* padding: 5px; */
+    border-radius: 20px 0px 20px 0px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #d35400;
+    box-shadow: rgb(53, 52, 52) 3px 3px 3px;
+}
+
+#each_room button:hover {
+    transform: scale(1.1, 1.1);
+    transition: 0.1;
+    box-shadow: rgb(53, 52, 52) 6px 4px 3px;
+}
+
+#each_room .price {
+    font-weight: bold;
+    border-top: #d35400 solid 3px;
+    border-bottom: #d35400 solid 3px;
+    font-size: 30px;
+    margin: 0px 500px;
+    text-align: center;
+}
+
+
+/* =====ABOUT US ======= */
+
+#about_us-header {
+    background: url(Images/image_hotel.jpg) no-repeat fixed;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+#about_us-header .header {
+    background-color: black;
+    opacity: 0.8;
+    padding: 100px;
+}
+
+#about_us-header h1 {
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 10px;
+}
+
+#about_us h3 {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#about_us p {
+    color: black;
+    opacity: 0.5;
+    text-align: justify;
+}
+
+#about_us .column2 img {
+    width: 100%;
+    height: inherit;
+}
+
+
+/* ========= LOCALIZATION ========== */
+
+#localization {
+    margin-top: 80px;
+    background: url(Images/image_hotel2.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+#localization .localization {
+    background-color: black;
+    opacity: 0.8;
+    padding: 100px 50px;
+}
+
+#localization h3 {
+    color: white;
+    font-weight: 900;
+    border-bottom: white solid 5px;
+    text-align: center;
+    margin: 0px 440px;
+}
+
+#localization iframe {
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    border-radius: 0px 50px;
+}
+
+
+/* =====RESTAURANT PAGE ======= */
+
+#restaurant_header {
+    background: url(Images/image_hotel.jpg) no-repeat fixed;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+#restaurant_header .header {
+    background-color: black;
+    opacity: 0.8;
+    padding: 100px;
+}
+
+#restaurant_header h1 {
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 10px;
+}
+
+#restaurant h3 {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#restaurant .column1 {
+    background: url(Images/image_hotel2.jpg) no-repeat fixed;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+#restaurant .column1 img {
+    text-align: center;
+    width: 500px;
+    height: inherit;
+}
+
+#restaurant .column1 img:hover {
+    transform: scale(1.05, 1.05);
+    transition: 1s;
+    border-radius: 20px;
+}
+
+#restaurant .column2 .title {
+    color: #d35400;
+    text-transform: uppercase;
+    font-weight: 900;
+    border-bottom: rgb(34, 34, 34) solid 3px;
+    font-size: 30px;
+}
+
+#restaurant .column2 .food-name {
+    color: black;
+}
+
+#restaurant .column2 .price {
+    color: #d35400;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+
+/* ======= spa_wellness.html======== */
+
+#spa_wellness {
+    background: url(Images/image_hotel.jpg) no-repeat fixed;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+#spa_wellness .header {
+    background-color: black;
+    opacity: 0.8;
+    padding: 100px;
+}
+
+#spa_wellness h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 10px;
+}
+
+
+/* ======= spa_wellness.html======== */
+
+#porfolio {
+    background: url(Images/image_hotel.jpg) no-repeat fixed;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+#porfolio .header {
+    background-color: black;
+    opacity: 0.8;
+    padding: 100px;
+}
+
+#porfolio .header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 10px;
+}
+
+#porfolio_content img {
+    width: 100%;
+    height: 300px;
+}
+
+#porfolio_content img:hover {
+    cursor: zoom-in;
+    transform: scale(2, 2);
+    transition: 00.1s;
+    border-radius: 10px;
+}
+
+#porfolio_content button {
+    color: white;
+    background-color: #d35400;
+    border: #d35400 solid 1px;
+    padding: 3px;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+
+#porfolio_content button:hover,
+#porfolio_content button:focus {
+    background-color: #572402;
+    box-shadow: rgb(39, 39, 39) 5px 3px 0.3px;
+}
+
+
+/* ======= CONTACT US======= */
+
+#contact_us {
+    background: url(Images/image_hotel.jpg) no-repeat fixed;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+#contact_us .header {
+    background-color: black;
+    opacity: 0.8;
+    padding: 100px;
+    /* padding-top: 100px; */
+    /* padding-bottom: 100px; */
+}
+
+#contact_us .header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 10px;
+}
+
+#contact_us_content .column1 iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#contact_us_content .column2 {
+    background: url(Images/image_hotel2.jpg) no-repeat fixed;
+    background-size: cover;
+    color: white;
+}
+
+#contact_us_content .column2 .contact_us_content {
+    background-color: black;
+    opacity: 0.8;
+    padding: 100px 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+#contact_us_content strong {
+    font-size: 50px;
+}
+
+#contact_us_content span {
+    font-weight: 900;
+    font-size: 25px;
+}
+
+#contact_us_form {
+    background: url(Images/room7.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+#contact_us_form .contact_us_form {
+    background-color: black;
+    opacity: 0.8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#contact_us_form .contact_us_form .column2,
+#contact_us_form .contact_us_form .column1,
+.column2,
+#contact_us_form .contact_us_form span {
+    opacity: 1!important;
+    color: white;
+}
+
+#contact_us_form .contact_us_form .column1 h1 {
+    color: white;
+}
+
+#contact_us_form .contact_us_form .column1 svg {
+    margin-right: 5px;
+    opacity: 1!important;
+    width: 50px;
+    height: 50px;
+    color: #d35400;
+}
+
+#contact_us_form .contact_us_form span {
+    font-size: 30px;
+    margin: 5px 0px;
+    font-weight: 900;
+}
+
+#contact_us_form .contact_us_form strong {
+    font-size: 50px;
+}
+
+#contact_us_form input::placeholder,
+#contact_us_form textarea::placeholder {
+    color: black;
+    font-weight: 900;
+}
+
+#contact_us_form .contact_us_form .column2 p {
+    font-size: 20px;
+}
