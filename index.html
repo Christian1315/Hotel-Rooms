@@ -8,6 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="hotel_icon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="font.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="uikit/css/uikit.min.css">
@@ -47,8 +51,8 @@
                                             <hr class="dropdown-divider">
                                         </li>
                                         <li><a class="dropdown-item" href="spa_wellness.html">Sapn & Wellness</a></li>
-                                        <li><a class="dropdown-item" href="#">Porfollio</a></li>
-                                        <li><a class="dropdown-item" href="#">Gallery</a></li>
+                                        <li><a class="dropdown-item" href="porfollio.html">Portfollio</a></li>
+                                        <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
@@ -111,14 +115,14 @@
                 <h1 class="welcome_text">Welcome</h1>
                 <p class="text_bold">Hello. Our hotel has been present for over 20 years. We make the best for all !</p>
                 <p class="text_opacited text-secondary">Congue, gravida. Placeat nibh sunt semper elementum anim! Integer lectus debitis auctor. Molestias vivamus eligendi ut, cupidatat nisl iaculis etiam! Laboris aenean .</p>
-                <button class="about_button btn">
+                <a target="_blank" href="about_us.html" class="about_button btn">
                     MORE ABOUT US
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
                       </svg>
-                </button>
+                    </a>
             </div>
-            <div class="col-md-8  welcome_contact" id="welcome_contact">
+            <div class="col-md-8" id="welcome_contact">
                 <div class="row" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 500">
                     <div class="col-6 column1" uk-scrollspy-class="uk-animation-slide-left">
                         <form>
@@ -154,15 +158,19 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                                     <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                                 </svg>
-                                Submit
+                                Search
                             </button>
                         </form>
                     </div>
                     <div class="col-6 column2" uk-scrollspy-class="uk-animation-slide-right">
-                        <h3 class="text-center text-white">ADDRESS</h3>
-                        <p class="text-center">
-                            143 Avenue, Miami ( Florida ) <br> Email : booking@hotelresort.com
-                        </p>
+                        <div class="row">
+                            <div class="col-md-12 welcome_contact">
+                                <h3 class="text-center text-white">ADDRESS</h3>
+                                <p class="text-center">
+                                    143 Avenue, Miami ( Florida ) <br> Email : booking@hotelresort.com
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -186,57 +194,65 @@
             <div class="col-md-12">
                 <div class="row">
                     <div class="col-md-3">
-                        <div class="card">
-                            <img src="Images/image_hotel2.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="">Small Room</h5>
-                                <p class="">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <div class="price">
-                                    <strong>$ 18</strong>
+                        <a href="rooms.html" title="SEE DETAIL" target="_blank">
+                            <div class="card">
+                                <img src="Images/image_hotel2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="">Small Room</h5>
+                                    <p class="">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <div class="price">
+                                        <strong>$ 18</strong>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-md-3">
-                        <div class="card">
-                            <img src="Images/image_hotel2.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="">Card title</h5>
-                                <p class="">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <div class="price">
-                                    <strong>$ 18</strong>
+                        <a href="rooms.html" title="SEE DETAIL" target="_blank">
+                            <div class="card">
+                                <img src="Images/image_hotel2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="">Card title</h5>
+                                    <p class="">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <div class="price">
+                                        <strong>$ 18</strong>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-md-3">
-                        <div class="card">
-                            <img src="Images/image_hotel2.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <div class="price">
-                                    <strong>$ 18</strong>
+                        <a href="rooms.html" title="SEE DETAIL" target="_blank">
+                            <div class="card">
+                                <img src="Images/image_hotel2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <div class="price">
+                                        <strong>$ 18</strong>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-md-3">
-                        <div class="card">
-                            <img src="Images/image_hotel2.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="">Card title</h5>
-                                <p class="">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <div class="price">
-                                    <strong>$ 18</strong>
+                        <a href="rooms.html" title="SEE DETAIL" target="_blank">
+                            <div class="card">
+                                <img src="Images/image_hotel2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="">Card title</h5>
+                                    <p class="">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <div class="price">
+                                        <strong>$ 18</strong>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12 text-center mt-5">
-                        <button class="discover_button">DISCOVER OUR NEWS ROOMS!</button>
+                        <a class="discover_button btn" href="rooms.html" target="_blank">DISCOVER OUR NEWS ROOMS!</a>
                     </div>
                 </div>
             </div>
@@ -312,6 +328,24 @@
                 </div>
             </div>
         </div>
+        <!-- ===PAGINATION=== -->
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <nav id="pagination" aria-label="Page navigation example">
+                    <ul class="pagination justify-content-end">
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </div>
 
     <!--### FOOTER ###-->
@@ -322,14 +356,14 @@
                     <h3 class="">HOTEL BOOKING</h3>
                     <p class="">Why I say old chap, that is spiffing blimey mufty, off his nut posh so I said. Butty pardon you blower owt to do with me jolly good off his nut fanny around chancer victoria sponge I, cuppa bog-standard.!</p>
                     <h3 class="">Our Social Network</h3>
-                    <h5 class=""><strong>Facebook</strong> | <strong>Twitter</strong> | <strong>Youtube</strong></h5>
+                    <h5 class=""><a href="https://" target="_blank"><strong>Facebook</strong></a> | <a href="http://" target="_blank"><strong>Twitter</strong></a> | <a href="http://" target="_blank"><strong>Youtube</strong></a></h5>
                 </div>
                 <div class="col-md-4 column2">
                     <h3 class="">COMPANY</h3>
                     <p class="">
                         <a class="dropdown-item" href="#">Restaurant</a>
-                        <a class="dropdown-item" href="#">Sapn & Wellness</a>
-                        <a class="dropdown-item" href="#">Porfollio</a>
+                        <a class="dropdown-item" href="#">Fitness & Wellness</a>
+                        <a class="dropdown-item" href="#">Portfolio</a>
                         <a class="dropdown-item" href="#">Gallery</a>
                     </p>
                 </div>
@@ -341,7 +375,7 @@
                 </div>
             </div>
             <div class="col-12">
-                <h5 class="text-center itServices">POWERED BY I&T SERVICES/61765590</h5>
+                <h5 class="text-center itServices">POWERED BY I&T SERVICES/ +229 61765590</h5>
             </div>
         </div>
     </footer>
