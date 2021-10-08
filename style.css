@@ -8,12 +8,21 @@ body {
     font-family: century gotic;
 }
 
+.active {
+    background-color: #d35400!important;
+}
+
 
 /* ==== NAV BAR=== */
 
 nav {
     margin-left: 10px;
     margin-right: 10px;
+}
+
+#navbarSupportedContent .btn-group button {
+    border-color: #d35400!important;
+    color: #d35400;
 }
 
 #navbarSupportedContent .dropdown-item {
