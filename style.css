@@ -124,8 +124,28 @@ a:visited {
 
 /* ### WELCOME ### */
 
+#segment {
+    display: none;
+    padding: 50px 0px;
+    opacity: 0.8
+}
+
+#searching_room_result img {
+    width: 100px;
+    height: 80px;
+}
+
 #welcome {
     margin: 100px 50px;
+}
+
+#welcome .price {
+    font-weight: bold;
+    border-top: #d35400 solid 3px;
+    border-bottom: #d35400 solid 3px;
+    font-size: 30px;
+    /* margin: 5px 100px; */
+    text-align: center;
 }
 
 #welcome .holiday_text {
@@ -160,15 +180,17 @@ a:visited {
 
 #welcome_contact .column2 {
     background: url(Images/image_hotel2.jpg) no-repeat fixed;
-    background-size: cover;
+    background-size: 100%;
 }
 
-#welcome_contact .welcome_contact {
+#welcome_contact .column2 .welcome_contact {
     background-color: black;
     opacity: 0.8;
     padding: 100px 0px;
     color: white;
     font-size: 20px;
+    width: 100%;
+    height: 100%;
 }
 
 #welcome_contact .column1 {
