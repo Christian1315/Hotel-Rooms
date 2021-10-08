@@ -42,7 +42,8 @@ nav {
     letter-spacing: 6px;
     font-weight: 900;
     font-size: 40px;
-    font-family: 'Lobster'!important;
+    /* font-family: 'Lobster'!important; */
+    font-family: 'Akronim', cursive;
 }
 
 .nav-link {
