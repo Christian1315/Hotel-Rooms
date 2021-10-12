@@ -2,14 +2,14 @@
     font-family: century gothic;
 }
 
+.active {
+    background-color: #d35400!important;
+}
+
 body {
     padding: 0px;
     margin: 0px;
     font-family: century gotic;
-}
-
-.active {
-    background-color: #d35400!important;
 }
 
 
@@ -401,6 +401,13 @@ a:visited {
     padding: 20px;
 }
 
+#each_room .description svg {
+    width: 25px;
+    height: 25px;
+    font-weight: 900;
+    font-size: 30px;
+}
+
 #each_room .uk-panel {
     background-color: black;
     opacity: 0.8;
@@ -416,7 +423,8 @@ a:visited {
     text-align: center;
 }
 
-#each_room svg {
+#each_room svg,
+#each_room .svg {
     font-size: 20px;
     width: 30px;
     height: 30px;
@@ -464,6 +472,30 @@ a:visited {
     font-size: 30px;
     margin: 0px 500px;
     text-align: center;
+}
+
+input:focus,
+select:focus {
+    border: #d35400 solid 3px!important;
+}
+
+form select {
+    text-align: center!important;
+}
+
+select .option {
+    background-color: #d35400!important;
+    color: white;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+form strong {
+    color: #d35400;
+}
+
+form .justify-content-center button {
+    margin-right: 3px;
 }
 
 
