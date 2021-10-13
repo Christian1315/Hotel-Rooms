@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="style.css">
     <!-- <link rel="stylesheet" href="font.css"> -->
 
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker3.css" rel="stylesheet" id="bootstrap-css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker3.css" rel="stylesheet" id="bootstrap-css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -77,7 +83,7 @@
                                     </ul>
                                 </div>
                                 <div class="btn-group mx-3">
-                                    <button class="btn  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                         CONNEXION
                                     </button>
                                     <ul class="dropdown-menu">
@@ -123,11 +129,8 @@
                             $62
                         </div>
                     </strong>
-
                 </h2>
-
                 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="sets: true">
-
                     <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m">
                         <li>
                             <img src="Images/room4.jpg" alt="">
@@ -190,41 +193,139 @@
                             </div>
                         </li>
                     </ul>
-
                     <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
                     <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
-
                 </div>
-                <p class="description mt-3">
-                    <strong> 35 square meters</strong>. Desk. Television with premium cable/satellite channels. Complimentary wired and wireless Internet access. In-room safe. Refrigerator and minibar. Ensuite bathroom with bathtub. Bath amenities include
-                    hair dryer, makeup/shaving mirror, and complimentary toiletries. Slippers. Iron/ironing board. Air conditioning.
-                </p>
-                <button class="btn">
-                    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="5" height="5" fill="currentColor" class="bi bi-calendar2-day-fill" viewBox="0 0 16 16">
-                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zm9.954 3H2.545c-.3 0-.545.224-.545.5v1c0 .276.244.5.545.5h10.91c.3 0 .545-.224.545-.5v-1c0-.276-.244-.5-.546-.5zm-2.24 4.855a.428.428 0 1 0 0-.855.426.426 0 0 0-.429.43c0 .238.192.425.43.425zm.337.563h-.672v4.105h.672V8.418zm-6.867 4.105v-2.3h2.261v-.61H4.684V7.801h2.464v-.61H4v5.332h.684zm3.296 0h.676V9.98c0-.554.227-1.007.953-1.007.125 0 .258.004.329.015v-.613a1.806 1.806 0 0 0-.254-.02c-.582 0-.891.32-1.012.567h-.02v-.504H7.98v4.105z"/>
-                      </svg> -->
-                      <input type="datetime-local" name="" id="calendar_view" style="width: 50px;">
-                      VIEW CALENDAR
-                </button>
-                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    SELECT
-                </button>
+                <div class="row description mt-3">
+                    <div class="col-4">
+                        <strong>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrows-fullscreen" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707zm0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707zm-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707z"/>
+                            </svg>
+                        </strong>
+                        <strong> 35 square meters</strong>. <br>
+                        <strong>
+                            <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-tv" viewBox="0 0 16 16">
+                                <path d="M2.5 13.5A.5.5 0 0 1 3 13h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zM13.991 3l.024.001a1.46 1.46 0 0 1 .538.143.757.757 0 0 1 .302.254c.067.1.145.277.145.602v5.991l-.001.024a1.464 1.464 0 0 1-.143.538.758.758 0 0 1-.254.302c-.1.067-.277.145-.602.145H2.009l-.024-.001a1.464 1.464 0 0 1-.538-.143.758.758 0 0 1-.302-.254C1.078 10.502 1 10.325 1 10V4.009l.001-.024a1.46 1.46 0 0 1 .143-.538.758.758 0 0 1 .254-.302C1.498 3.078 1.675 3 2 3h11.991zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z"/>
+                                </svg>
+                        </strong>
+                        <strong>Desk. Television</strong>
+                    </div>
+                    <div class="col-4">
+                        <strong>
+                                <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-wifi" viewBox="0 0 16 16">
+                                    <path d="M15.384 6.115a.485.485 0 0 0-.047-.736A12.444 12.444 0 0 0 8 3C5.259 3 2.723 3.882.663 5.379a.485.485 0 0 0-.048.736.518.518 0 0 0 .668.05A11.448 11.448 0 0 1 8 4c2.507 0 4.827.802 6.716 2.164.205.148.49.13.668-.049z"/>
+                                    <path d="M13.229 8.271a.482.482 0 0 0-.063-.745A9.455 9.455 0 0 0 8 6c-1.905 0-3.68.56-5.166 1.526a.48.48 0 0 0-.063.745.525.525 0 0 0 .652.065A8.46 8.46 0 0 1 8 7a8.46 8.46 0 0 1 4.576 1.336c.206.132.48.108.653-.065zm-2.183 2.183c.226-.226.185-.605-.1-.75A6.473 6.473 0 0 0 8 9c-1.06 0-2.062.254-2.946.704-.285.145-.326.524-.1.75l.015.015c.16.16.407.19.611.09A5.478 5.478 0 0 1 8 10c.868 0 1.69.201 2.42.56.203.1.45.07.61-.091l.016-.015zM9.06 12.44c.196-.196.198-.52-.04-.66A1.99 1.99 0 0 0 8 11.5a1.99 1.99 0 0 0-1.02.28c-.238.14-.236.464-.04.66l.706.706a.5.5 0 0 0 .707 0l.707-.707z"/>
+                                  </svg>
+                            </strong>
+                        <strong>Internet access</strong> <br>
+                        <strong>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-cone-striped" viewBox="0 0 16 16">
+                                    <path d="m9.97 4.88.953 3.811C10.159 8.878 9.14 9 8 9c-1.14 0-2.158-.122-2.923-.309L6.03 4.88C6.635 4.957 7.3 5 8 5s1.365-.043 1.97-.12zm-.245-.978L8.97.88C8.718-.13 7.282-.13 7.03.88L6.275 3.9C6.8 3.965 7.382 4 8 4c.618 0 1.2-.036 1.725-.098zm4.396 8.613a.5.5 0 0 1 .037.96l-6 2a.5.5 0 0 1-.316 0l-6-2a.5.5 0 0 1 .037-.96l2.391-.598.565-2.257c.862.212 1.964.339 3.165.339s2.303-.127 3.165-.339l.565 2.257 2.391.598z"/>
+                                  </svg>
+                            </strong>
+                        <strong>In-room safe</strong>
+                    </div>
+                    <div class="col-4">
+                        <strong>
+                            <img class="svg" src="Images/bathroom_icon.jpg">
+                        </strong>
+                        <strong>Bathroom</strong> <br>
+                        <strong>
+                              <img src="Images/slipper_icon.jpg" class="svg">
+                        </strong>
+                        <strong>Slipper</strong>.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-flex justify-content-center">
+                            <button class="btn" style="margin-right: 5px;">
+                                    <div class='input-group date' id='datepicker'>
+                                        <span class="input-group-addon">
+                                            <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-calendar2-event-fill" viewBox="0 0 16 16">
+                                                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zm9.954 3H2.545c-.3 0-.545.224-.545.5v1c0 .276.244.5.545.5h10.91c.3 0 .545-.224.545-.5v-1c0-.276-.244-.5-.546-.5zM11.5 7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z"/>
+                                              </svg>
+                                            <span class="glyphicon glyphicon-calendar" style="font-size:30px"></span>
+                                        </span>
+                                    </div>
+                            </button>
+                            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                SELECT
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <!-- Script -->
+
             <!-- modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <div class="modal-header shadow">
+                            <h5 class="" id="exampleModalLabel"> <strong>Who's checking in?</strong> </h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            ...
+                            <!-- FORMULAIRE -->
+                            <form>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="mb-3">
+                                            <label for="lastname" class="form-label">Lastname <strong>*</strong></label>
+                                            <input type="email" class="form-control" id="lastname" aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="firstname" class="form-label">Firstname<strong>*</strong></label>
+                                            <input type="text" class="form-control" id="firstname">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="firstname" class="form-label">Cuntry<strong>*</strong></label>
+                                            <select name="" class="form-control" id="firstname">
+                                                <option class="option form-control" value="0">Benin</option>
+                                                <option class="option form-control" value="0">Nigeria</option>
+                                                <option class="option form-control" value="0">France</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="mb-3">
+                                            <label for="email" class="form-label">Email<strong>*</strong></label>
+                                            <input type="email" class="form-control" id="email">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="phone" class="form-label">Phone<strong>*</strong></label>
+                                            <input type="number" class="form-control" id="phone">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="gender" class="form-label">Gender<strong>*</strong></label>
+                                            <select name="" class="form-control" id="">
+                                                <option class="form-control" value="0">Man</option>
+                                                <option class="form-control" value="1">Woman</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- PAYEMENT -->
+                                <div class="row">
+                                    <div class="col-12 d-flex justify-content-center">
+                                        <button type="button" class="btn btn-secondary" onclick="getElementById('submit_button').style.display='block'">Pay now</button>
+                                        <button type="button" class="btn btn-secondary" onclick="getElementById('submit_button').style.display='block'">Pay cash</button>
+                                    </div>
+                                </div>
+                                <div class="row text-center">
+                                    <div class="col-12 ">
+                                        <button type="submit" id="submit_button" class="btn" style="display: none;">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
-                        <div class="modal-footer">
+                        <!-- <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                             <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -266,6 +367,23 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="uikit/js/uikit.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
+    <script>
+        $(function() {
+            $('#datepicker').datepicker({
+                format: "dd/mm/yyyy",
+                autoclose: true,
+                todayHighlight: true,
+                showOtherMonths: true,
+                selectOtherMonths: true,
+                autoclose: true,
+                changeMonth: true,
+                changeYear: true,
+                orientation: "button",
+            });
+        });
+    </script>
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
