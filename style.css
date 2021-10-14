@@ -401,7 +401,7 @@ a:visited {
     padding: 20px;
 }
 
-#each_room .description svg {
+#each_room svg {
     width: 25px;
     height: 25px;
     font-weight: 900;
@@ -843,4 +843,90 @@ form .justify-content-center button {
 
 #contact_us_form .contact_us_form .column2 p {
     font-size: 20px;
+}
+
+
+/*======== ADMIN LOGIN======= */
+
+#login_header form {
+    background-color: white;
+    border-radius: 20px;
+    margin: auto 300px;
+    padding: 10px;
+}
+
+#login_header form a {
+    padding: 10px;
+    border-radius: 20px 0px 20px 0px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #d35400;
+    box-shadow: rgb(53, 52, 52) 3px 3px 3px;
+    text-decoration: none;
+}
+
+#login_header form a:hover {
+    transform: scale(1.1, 1.1);
+    transition: 0.1;
+    box-shadow: rgb(53, 52, 52) 6px 4px 3px;
+}
+
+#login_header {
+    background: url(Images/image_hotel2.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+#login_header .header {
+    background-color: black;
+    opacity: 0.8;
+    padding: 150px 100px 100px 100px;
+}
+
+#login_footer a {
+    text-decoration: none;
+}
+
+#login_footer {
+    background-color: rgb(34, 33, 33);
+    margin-top: 100px;
+    padding: 30px 20px;
+}
+
+#login_footer h3 {
+    color: white;
+    font-weight: 900;
+}
+
+#login_footer p {
+    color: white;
+    opacity: 0.6;
+}
+
+#login_footer h5 {
+    color: white;
+}
+
+#login_footer h5 strong {
+    color: #d35400;
+}
+
+#login_footer .column2 p a {
+    color: #d35400;
+    font-size: 20px
+}
+
+#login_footer .itServices {
+    color: white;
+    font-weight: 900;
+    letter-spacing: 3px;
+    border-top: white solid 3px;
+    border-bottom: white solid 3px;
+    padding: 5px 0px;
+    margin: 10px 300px;
+}
+
+#login_footer {
+    background-color: rgb(34, 33, 33);
+    margin-top: 0px;
+    padding: 30px 20px;
 }
